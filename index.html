@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Loader</title>
+    <link rel="stylesheet" href="css/styles/main.css">
+    <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+
+    <div id="btnWrapper">
+        <div onclick="ReadImages('Logos')" id="btn"><button>Load Logos</button></div>
+        <div onclick="ReadImages('Illustrations')" id="btn"><button>Load Illustrations</button></div>
+        <div onclick="ReadImages('Ads')" id="btn"><button>Load Ads</button></div>
+        <div onclick="ReadImages('Photos')" id="btn"><button>Load Photos</button></div>
+    </div>
+
+    <button onclick="ClearGallery()" id="Clearbtn">Clear Gallery</button>
+
+    <div id="gallery">
+        
+    </div>
+
+</body>
+</html>
